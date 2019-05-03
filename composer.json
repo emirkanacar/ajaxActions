@@ -1,0 +1,20 @@
+{
+    "name": "emirkanacar/ajax-actions",
+    "description": "Easily manage your ajax connections and secure your ajax connections.",
+    "type": "library",
+    "homepage": "https://github.com/emirkanacar/ajaxActions",
+    "authors": [{
+        "name": "Emirkan Acar",
+        "email": "nydaolian@gmail.com",
+        "role": "Developer"
+    }],
+    "minimum-stability": "dev",
+    "require": {
+        "php": "^7.2"
+    },
+    "autoload": {
+        "psr-0": {
+            "ajaxActions": "src/"
+        }
+    }
+}
