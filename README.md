@@ -1,4 +1,4 @@
-# ajaxActions
+# ajaxActions // i need time fix for issues(thank you)
 Easily manage your ajax connections and secure your ajax connections.
 
 Installation guide:
