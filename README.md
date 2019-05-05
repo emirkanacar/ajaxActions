@@ -40,6 +40,10 @@ Installation guide:
     ```php
     $ajax->getAjaxData();
     ```
+    * get request debug data
+    ```php
+    $ajax->getDebugData();
+    ```
   * (optional) set callback javascript function
     ```php
     $ajax->returnCallback(['name' => 'value']);

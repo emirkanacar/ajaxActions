@@ -206,4 +206,26 @@ class AjaxActions
         }
         print_r($Callback);
     }
+
+    public function getDebugData()
+    {
+        if($this->requestStatus == true)
+        {
+            $debugData = [
+                'name' => $this->action_name,
+                'hash' => $this->action_hash,
+                'time' => $this->time
+            ];
+
+            $this->requestStatus = false;
+            return json_encode($debugData);
+        }else
+        {
+            exit(json_encode([
+                'type' => 'error',
+                'code' => 400,
+                'message' => 'Request data not found'
+            ]));
+        }
+    }
 }
