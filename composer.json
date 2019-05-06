@@ -8,13 +8,14 @@
         "email": "nydaolian@gmail.com",
         "role": "Developer"
     }],
+    "minimum-stability": "dev",
     "license": "Apache-2.0",
     "require": {
-        "php": "^7"
+        "php": ">=7"
     },
     "autoload": {
-        "psr-0": {
-            "ajaxActions": "src/"
+        "psr-4": {
+            "emirkanacar\\ajaxActions\\": "src"
         }
     }
 }
