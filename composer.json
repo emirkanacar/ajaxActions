@@ -2,6 +2,7 @@
     "name": "emirkanacar/ajax-actions",
     "description": "Easily manage your ajax connections and secure your ajax connections.",
     "type": "library",
+    "version": "1.3.0",
     "homepage": "https://github.com/emirkanacar/ajaxActions",
     "authors": [{
         "name": "Emirkan Acar",
